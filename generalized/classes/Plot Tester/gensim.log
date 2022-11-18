@@ -1,0 +1,227 @@
+2022-11-18 17:18:53,777:INFO:adding document #0 to Dictionary<0 unique tokens: []>
+2022-11-18 17:18:53,990:INFO:built Dictionary<7643 unique tokens: ['allow', 'amount', 'app', 'card', 'claimed']...> from 1000 documents (total 117190 corpus positions)
+2022-11-18 17:18:54,029:INFO:Dictionary lifecycle event {'msg': "built Dictionary<7643 unique tokens: ['allow', 'amount', 'app', 'card', 'claimed']...> from 1000 documents (total 117190 corpus positions)", 'datetime': '2022-11-18T17:18:53.991138', 'gensim': '4.2.0', 'python': '3.9.0 (v3.9.0:9cf6752276, Oct  5 2020, 11:29:23) \n[Clang 6.0 (clang-600.0.57)]', 'platform': 'macOS-10.16-x86_64-i386-64bit', 'event': 'created'}
+2022-11-18 17:18:54,145:INFO:----auto----START----
+2022-11-18 17:18:54,146:INFO:using autotuned alpha, starting with [0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335, 0.033333335]
+2022-11-18 17:18:54,148:INFO:using serial LDA version on this node
+2022-11-18 17:18:54,186:INFO:running online (multi-pass) LDA training, 30 topics, 5 passes over the supplied corpus of 1000 documents, updating model once every 1000 documents, evaluating perplexity every 1000 documents, iterating 50x with a convergence threshold of 0.001000
+2022-11-18 17:18:54,186:WARNING:too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2022-11-18 17:18:56,099:INFO:-13.550 per-word bound, 11996.1 perplexity estimate based on a held-out corpus of 1000 documents with 117190 words
+2022-11-18 17:18:56,100:INFO:PROGRESS: pass 0, at document #1000/1000
+2022-11-18 17:18:57,347:INFO:optimized alpha [0.034946933, 0.037349675, 0.035593815, 0.030562881, 0.031318076, 0.038143765, 0.03877504, 0.03311282, 0.031174725, 0.035562392, 0.034737207, 0.031903084, 0.036217295, 0.037390806, 0.039398264, 0.03155979, 0.037130628, 0.03344435, 0.032547563, 0.030556908, 0.03534387, 0.032094046, 0.034124155, 0.034918375, 0.031623647, 0.033013396, 0.035092704, 0.034143317, 0.035219356, 0.036011074]
+2022-11-18 17:18:57,378:INFO:topic #3 (0.031): 0.012*"chase" + 0.011*"credit" + 0.009*"would" + 0.009*"card" + 0.009*"funds" + 0.008*"account" + 0.008*"bank" + 0.007*"accounts" + 0.006*"email" + 0.006*"business"
+2022-11-18 17:18:57,378:INFO:topic #19 (0.031): 0.019*"chase" + 0.013*"account" + 0.012*"bank" + 0.011*"would" + 0.010*"money" + 0.008*"card" + 0.007*"back" + 0.007*"credit" + 0.006*"refund" + 0.006*"department"
+2022-11-18 17:18:57,379:INFO:topic #5 (0.038): 0.035*"chase" + 0.023*"card" + 0.016*"credit" + 0.015*"account" + 0.011*"would" + 0.007*"charges" + 0.007*"called" + 0.005*"received" + 0.005*"time" + 0.005*"call"
+2022-11-18 17:18:57,379:INFO:topic #6 (0.039): 0.033*"chase" + 0.031*"account" + 0.015*"credit" + 0.012*"bank" + 0.010*"told" + 0.009*"payment" + 0.009*"would" + 0.008*"card" + 0.007*"money" + 0.006*"called"
+2022-11-18 17:18:57,379:INFO:topic #14 (0.039): 0.028*"chase" + 0.015*"credit" + 0.015*"account" + 0.013*"card" + 0.011*"bank" + 0.009*"loan" + 0.008*"would" + 0.008*"called" + 0.007*"time" + 0.007*"told"
+2022-11-18 17:18:57,380:INFO:topic diff=15.928674, rho=1.000000
+2022-11-18 17:18:59,019:INFO:-8.241 per-word bound, 302.5 perplexity estimate based on a held-out corpus of 1000 documents with 117190 words
+2022-11-18 17:18:59,019:INFO:PROGRESS: pass 1, at document #1000/1000
+2022-11-18 17:18:59,853:INFO:optimized alpha [0.033016242, 0.036359113, 0.03355343, 0.028003864, 0.028829474, 0.037959017, 0.03752334, 0.030615855, 0.028569791, 0.033374242, 0.032622546, 0.029762112, 0.03414972, 0.035400875, 0.03863112, 0.02916823, 0.03628946, 0.030783525, 0.030061284, 0.028000109, 0.033727057, 0.029669486, 0.03172792, 0.032667264, 0.029020093, 0.030608825, 0.032538194, 0.03184752, 0.032690786, 0.0342791]
+2022-11-18 17:18:59,872:INFO:topic #3 (0.028): 0.011*"credit" + 0.011*"chase" + 0.009*"accounts" + 0.009*"card" + 0.009*"would" + 0.009*"email" + 0.008*"business" + 0.008*"account" + 0.008*"companies" + 0.007*"funds"
+2022-11-18 17:18:59,872:INFO:topic #19 (0.028): 0.018*"chase" + 0.012*"bank" + 0.011*"money" + 0.010*"would" + 0.010*"account" + 0.008*"refund" + 0.007*"insurance" + 0.007*"back" + 0.006*"vehicle" + 0.006*"cancelled"
+2022-11-18 17:18:59,873:INFO:topic #6 (0.038): 0.036*"account" + 0.033*"chase" + 0.017*"credit" + 0.012*"bank" + 0.010*"told" + 0.009*"payment" + 0.008*"would" + 0.008*"card" + 0.007*"money" + 0.007*"called"
+2022-11-18 17:18:59,873:INFO:topic #5 (0.038): 0.036*"chase" + 0.026*"card" + 0.019*"credit" + 0.013*"account" + 0.011*"would" + 0.008*"charges" + 0.006*"called" + 0.006*"received" + 0.005*"told" + 0.005*"time"
+2022-11-18 17:18:59,873:INFO:topic #14 (0.039): 0.028*"chase" + 0.014*"credit" + 0.012*"loan" + 0.012*"card" + 0.012*"account" + 0.010*"bank" + 0.008*"would" + 0.007*"called" + 0.007*"time" + 0.007*"information"
+2022-11-18 17:18:59,874:INFO:topic diff=2.193085, rho=0.577350
+2022-11-18 17:19:00,824:INFO:-7.791 per-word bound, 221.5 perplexity estimate based on a held-out corpus of 1000 documents with 117190 words
+2022-11-18 17:19:00,824:INFO:PROGRESS: pass 2, at document #1000/1000
+2022-11-18 17:19:01,404:INFO:optimized alpha [0.031388428, 0.035257492, 0.032217655, 0.02609986, 0.026951378, 0.038007677, 0.03609514, 0.02872488, 0.026618619, 0.031852372, 0.030838879, 0.028221833, 0.032351788, 0.033720568, 0.037667997, 0.027386397, 0.03563129, 0.028799677, 0.028179262, 0.026126727, 0.032727845, 0.027937938, 0.02987737, 0.031011272, 0.027096618, 0.028810222, 0.030561138, 0.030070495, 0.03075014, 0.032749075]
+2022-11-18 17:19:01,426:INFO:topic #19 (0.026): 0.018*"chase" + 0.013*"bank" + 0.011*"money" + 0.010*"insurance" + 0.009*"would" + 0.009*"vehicle" + 0.009*"refund" + 0.008*"cancelled" + 0.008*"pmi" + 0.007*"purchased"
+2022-11-18 17:19:01,426:INFO:topic #3 (0.026): 0.012*"credit" + 0.012*"accounts" + 0.011*"business" + 0.011*"chase" + 0.010*"email" + 0.010*"companies" + 0.009*"card" + 0.008*"would" + 0.008*"account" + 0.007*"closed"
+2022-11-18 17:19:01,426:INFO:topic #6 (0.036): 0.038*"account" + 0.034*"chase" + 0.018*"credit" + 0.012*"bank" + 0.010*"told" + 0.009*"payment" + 0.008*"would" + 0.008*"card" + 0.008*"money" + 0.007*"called"
+2022-11-18 17:19:01,426:INFO:topic #14 (0.038): 0.028*"chase" + 0.014*"loan" + 0.012*"credit" + 0.010*"card" + 0.010*"bank" + 0.010*"account" + 0.007*"would" + 0.007*"information" + 0.007*"time" + 0.007*"called"
+2022-11-18 17:19:01,427:INFO:topic #5 (0.038): 0.036*"chase" + 0.028*"card" + 0.020*"credit" + 0.012*"account" + 0.011*"would" + 0.009*"charges" + 0.006*"called" + 0.006*"points" + 0.006*"received" + 0.005*"told"
+2022-11-18 17:19:01,427:INFO:topic diff=1.748089, rho=0.500000
+2022-11-18 17:19:02,371:INFO:-7.612 per-word bound, 195.6 perplexity estimate based on a held-out corpus of 1000 documents with 117190 words
+2022-11-18 17:19:02,372:INFO:PROGRESS: pass 3, at document #1000/1000
+2022-11-18 17:19:03,059:INFO:optimized alpha [0.03013173, 0.034410853, 0.031318042, 0.024603914, 0.025483333, 0.03810065, 0.034964677, 0.027259575, 0.025112117, 0.030659279, 0.029433977, 0.027093332, 0.030919982, 0.03242247, 0.03686071, 0.02597586, 0.03528075, 0.027226932, 0.026732447, 0.024652265, 0.032099362, 0.02664215, 0.02838416, 0.029697476, 0.025570553, 0.027397612, 0.029003046, 0.02874538, 0.02924506, 0.03148427]
+2022-11-18 17:19:03,082:INFO:topic #3 (0.025): 0.013*"accounts" + 0.012*"business" + 0.012*"credit" + 0.012*"email" + 0.011*"companies" + 0.011*"chase" + 0.008*"card" + 0.008*"closed" + 0.008*"would" + 0.008*"account"
+2022-11-18 17:19:03,082:INFO:topic #19 (0.025): 0.017*"chase" + 0.013*"bank" + 0.012*"insurance" + 0.011*"money" + 0.010*"vehicle" + 0.009*"would" + 0.009*"pmi" + 0.009*"cancelled" + 0.008*"purchased" + 0.008*"refund"
+2022-11-18 17:19:03,082:INFO:topic #16 (0.035): 0.031*"payment" + 0.027*"chase" + 0.017*"credit" + 0.015*"card" + 0.013*"payments" + 0.012*"account" + 0.012*"would" + 0.009*"late" + 0.008*"made" + 0.008*"fees"
+2022-11-18 17:19:03,083:INFO:topic #14 (0.037): 0.027*"chase" + 0.016*"loan" + 0.011*"credit" + 0.010*"bank" + 0.009*"card" + 0.008*"account" + 0.007*"information" + 0.007*"would" + 0.006*"time" + 0.006*"called"
+2022-11-18 17:19:03,083:INFO:topic #5 (0.038): 0.037*"chase" + 0.030*"card" + 0.021*"credit" + 0.012*"account" + 0.011*"would" + 0.009*"charges" + 0.007*"points" + 0.006*"called" + 0.006*"received" + 0.006*"told"
+2022-11-18 17:19:03,083:INFO:topic diff=1.358341, rho=0.447214
+2022-11-18 17:19:04,467:INFO:-7.537 per-word bound, 185.7 perplexity estimate based on a held-out corpus of 1000 documents with 117190 words
+2022-11-18 17:19:04,467:INFO:PROGRESS: pass 4, at document #1000/1000
+2022-11-18 17:19:05,064:INFO:optimized alpha [0.029163765, 0.03369763, 0.030652028, 0.023399804, 0.02427858, 0.038316824, 0.03407378, 0.026044492, 0.023889683, 0.029701892, 0.028260319, 0.026196245, 0.029749973, 0.03135607, 0.036160477, 0.024836667, 0.03507327, 0.02595215, 0.025553111, 0.023454478, 0.031710245, 0.025591807, 0.02719287, 0.028580444, 0.024311518, 0.026279276, 0.027734527, 0.027745055, 0.028008608, 0.030443074]
+2022-11-18 17:19:05,088:INFO:topic #3 (0.023): 0.015*"accounts" + 0.013*"business" + 0.013*"companies" + 0.012*"email" + 0.012*"credit" + 0.011*"chase" + 0.009*"closed" + 0.008*"card" + 0.008*"would" + 0.008*"problem"
+2022-11-18 17:19:05,088:INFO:topic #19 (0.023): 0.017*"chase" + 0.014*"insurance" + 0.013*"bank" + 0.012*"vehicle" + 0.011*"money" + 0.009*"pmi" + 0.009*"cancelled" + 0.009*"would" + 0.009*"purchased" + 0.008*"ltv"
+2022-11-18 17:19:05,089:INFO:topic #16 (0.035): 0.033*"payment" + 0.027*"chase" + 0.017*"credit" + 0.014*"card" + 0.013*"payments" + 0.012*"account" + 0.012*"would" + 0.010*"late" + 0.008*"made" + 0.008*"fees"
+2022-11-18 17:19:05,089:INFO:topic #14 (0.036): 0.027*"chase" + 0.017*"loan" + 0.010*"credit" + 0.009*"bank" + 0.008*"card" + 0.007*"information" + 0.007*"account" + 0.006*"mortgage" + 0.006*"would" + 0.006*"time"
+2022-11-18 17:19:05,089:INFO:topic #5 (0.038): 0.037*"chase" + 0.031*"card" + 0.021*"credit" + 0.012*"account" + 0.011*"would" + 0.010*"charges" + 0.007*"points" + 0.006*"called" + 0.006*"received" + 0.006*"told"
+2022-11-18 17:19:05,090:INFO:topic diff=1.040776, rho=0.408248
+2022-11-18 17:19:05,104:INFO:LdaModel lifecycle event {'msg': 'trained LdaModel<num_terms=7643, num_topics=30, decay=0.5, chunksize=1000> in 10.92s', 'datetime': '2022-11-18T17:19:05.104915', 'gensim': '4.2.0', 'python': '3.9.0 (v3.9.0:9cf6752276, Oct  5 2020, 11:29:23) \n[Clang 6.0 (clang-600.0.57)]', 'platform': 'macOS-10.16-x86_64-i386-64bit', 'event': 'created'}
+2022-11-18 17:19:05,105:INFO:LdaState lifecycle event {'fname_or_handle': 'auto/model/model.state', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2022-11-18T17:19:05.105174', 'gensim': '4.2.0', 'python': '3.9.0 (v3.9.0:9cf6752276, Oct  5 2020, 11:29:23) \n[Clang 6.0 (clang-600.0.57)]', 'platform': 'macOS-10.16-x86_64-i386-64bit', 'event': 'saving'}
+2022-11-18 17:19:05,107:INFO:saved auto/model/model.state
+2022-11-18 17:19:05,112:INFO:LdaModel lifecycle event {'fname_or_handle': 'auto/model/model', 'separately': "['expElogbeta', 'sstats']", 'sep_limit': 10485760, 'ignore': ['dispatcher', 'id2word', 'state'], 'datetime': '2022-11-18T17:19:05.112114', 'gensim': '4.2.0', 'python': '3.9.0 (v3.9.0:9cf6752276, Oct  5 2020, 11:29:23) \n[Clang 6.0 (clang-600.0.57)]', 'platform': 'macOS-10.16-x86_64-i386-64bit', 'event': 'saving'}
+2022-11-18 17:19:05,112:INFO:storing np array 'expElogbeta' to auto/model/model.expElogbeta.npy
+2022-11-18 17:19:05,120:INFO:not storing attribute dispatcher
+2022-11-18 17:19:05,120:INFO:not storing attribute id2word
+2022-11-18 17:19:05,120:INFO:not storing attribute state
+2022-11-18 17:19:05,121:INFO:saved auto/model/model
+2022-11-18 17:19:05,121:INFO:----auto----STOP----
+2022-11-18 17:19:05,129:INFO:using ParallelWordOccurrenceAccumulator<processes=7, batch_size=64> to estimate probabilities from sliding windows
+2022-11-18 17:19:15,324:INFO:1 batches submitted to accumulate stats from 64 documents (1292 virtual)
+2022-11-18 17:19:15,332:INFO:2 batches submitted to accumulate stats from 128 documents (1359 virtual)
+2022-11-18 17:19:15,338:INFO:3 batches submitted to accumulate stats from 192 documents (1992 virtual)
+2022-11-18 17:19:15,343:INFO:4 batches submitted to accumulate stats from 256 documents (2014 virtual)
+2022-11-18 17:19:15,347:INFO:5 batches submitted to accumulate stats from 320 documents (2321 virtual)
+2022-11-18 17:19:15,354:INFO:6 batches submitted to accumulate stats from 384 documents (5647 virtual)
+2022-11-18 17:19:15,358:INFO:7 batches submitted to accumulate stats from 448 documents (6023 virtual)
+2022-11-18 17:19:15,365:INFO:8 batches submitted to accumulate stats from 512 documents (6790 virtual)
+2022-11-18 17:19:15,368:INFO:9 batches submitted to accumulate stats from 576 documents (7371 virtual)
+2022-11-18 17:19:15,384:INFO:11 batches submitted to accumulate stats from 704 documents (7902 virtual)
+2022-11-18 17:19:15,386:INFO:12 batches submitted to accumulate stats from 768 documents (7994 virtual)
+2022-11-18 17:19:15,877:INFO:15 batches submitted to accumulate stats from 960 documents (7893 virtual)
+2022-11-18 17:19:15,928:INFO:16 batches submitted to accumulate stats from 1024 documents (8190 virtual)
+2022-11-18 17:19:17,245:INFO:7 accumulators retrieved from output queue
+2022-11-18 17:19:17,290:INFO:accumulated word occurrence stats for 41947 virtual documents
+2022-11-18 17:19:19,270:INFO:-7.505 per-word bound, 181.7 perplexity estimate based on a held-out corpus of 1000 documents with 117190 words
+2022-11-18 17:19:19,272:INFO:adding document #0 to Dictionary<0 unique tokens: []>
+2022-11-18 17:19:19,413:INFO:built Dictionary<7643 unique tokens: ['account', 'action', 'amount', 'balance', 'bounced']...> from 1000 documents (total 117190 corpus positions)
+2022-11-18 17:19:19,413:INFO:Dictionary lifecycle event {'msg': "built Dictionary<7643 unique tokens: ['account', 'action', 'amount', 'balance', 'bounced']...> from 1000 documents (total 117190 corpus positions)", 'datetime': '2022-11-18T17:19:19.413517', 'gensim': '4.2.0', 'python': '3.9.0 (v3.9.0:9cf6752276, Oct  5 2020, 11:29:23) \n[Clang 6.0 (clang-600.0.57)]', 'platform': 'macOS-10.16-x86_64-i386-64bit', 'event': 'created'}
+2022-11-18 17:19:19,503:INFO:----symmetric----START----
+2022-11-18 17:19:19,504:INFO:using symmetric alpha at 0.03333333333333333
+2022-11-18 17:19:19,504:INFO:using symmetric eta at 0.03333333333333333
+2022-11-18 17:19:19,505:INFO:using serial LDA version on this node
+2022-11-18 17:19:19,532:INFO:running online (multi-pass) LDA training, 30 topics, 5 passes over the supplied corpus of 1000 documents, updating model once every 1000 documents, evaluating perplexity every 1000 documents, iterating 50x with a convergence threshold of 0.001000
+2022-11-18 17:19:19,532:WARNING:too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2022-11-18 17:19:21,571:INFO:-13.544 per-word bound, 11943.3 perplexity estimate based on a held-out corpus of 1000 documents with 117190 words
+2022-11-18 17:19:21,572:INFO:PROGRESS: pass 0, at document #1000/1000
+2022-11-18 17:19:23,516:INFO:topic #0 (0.033): 0.035*"chase" + 0.027*"account" + 0.015*"credit" + 0.015*"card" + 0.013*"bank" + 0.013*"told" + 0.009*"would" + 0.008*"called" + 0.007*"check" + 0.006*"fees"
+2022-11-18 17:19:23,516:INFO:topic #16 (0.033): 0.040*"chase" + 0.021*"account" + 0.019*"credit" + 0.014*"would" + 0.012*"bank" + 0.007*"check" + 0.007*"money" + 0.007*"said" + 0.007*"received" + 0.006*"card"
+2022-11-18 17:19:23,516:INFO:topic #3 (0.033): 0.018*"chase" + 0.013*"account" + 0.007*"back" + 0.007*"money" + 0.006*"bank" + 0.006*"time" + 0.005*"see" + 0.005*"first" + 0.005*"would" + 0.005*"deposit"
+2022-11-18 17:19:23,517:INFO:topic #7 (0.033): 0.038*"chase" + 0.016*"account" + 0.013*"credit" + 0.012*"card" + 0.011*"payment" + 0.010*"bank" + 0.009*"made" + 0.007*"information" + 0.007*"letter" + 0.006*"money"
+2022-11-18 17:19:23,517:INFO:topic #4 (0.033): 0.029*"chase" + 0.028*"credit" + 0.019*"bank" + 0.018*"card" + 0.012*"would" + 0.011*"account" + 0.007*"payments" + 0.006*"payment" + 0.006*"two" + 0.006*"told"
+2022-11-18 17:19:23,518:INFO:topic diff=16.234648, rho=1.000000
+2022-11-18 17:19:25,497:INFO:-8.509 per-word bound, 364.4 perplexity estimate based on a held-out corpus of 1000 documents with 117190 words
+2022-11-18 17:19:25,497:INFO:PROGRESS: pass 1, at document #1000/1000
+2022-11-18 17:19:26,494:INFO:topic #21 (0.033): 0.023*"chase" + 0.010*"loan" + 0.008*"would" + 0.008*"credit" + 0.008*"home" + 0.007*"bankruptcy" + 0.007*"morgan" + 0.007*"bank" + 0.006*"jp" + 0.006*"account"
+2022-11-18 17:19:26,494:INFO:topic #8 (0.033): 0.024*"chase" + 0.014*"account" + 0.013*"bank" + 0.011*"would" + 0.011*"credit" + 0.008*"called" + 0.007*"told" + 0.007*"card" + 0.006*"information" + 0.005*"amount"
+2022-11-18 17:19:26,495:INFO:topic #7 (0.033): 0.038*"chase" + 0.017*"account" + 0.013*"card" + 0.012*"credit" + 0.012*"payment" + 0.011*"bank" + 0.010*"made" + 0.007*"information" + 0.007*"claim" + 0.007*"letter"
+2022-11-18 17:19:26,495:INFO:topic #1 (0.033): 0.040*"chase" + 0.018*"account" + 0.011*"card" + 0.011*"would" + 0.007*"also" + 0.007*"never" + 0.006*"called" + 0.006*"bank" + 0.006*"credit" + 0.006*"received"
+2022-11-18 17:19:26,495:INFO:topic #24 (0.033): 0.026*"account" + 0.024*"chase" + 0.009*"morgan" + 0.008*"checking" + 0.007*"bank" + 0.007*"jp" + 0.006*"credit" + 0.005*"money" + 0.005*"card" + 0.004*"charges"
+2022-11-18 17:19:26,496:INFO:topic diff=2.097759, rho=0.577350
+2022-11-18 17:19:27,565:INFO:-8.104 per-word bound, 275.2 perplexity estimate based on a held-out corpus of 1000 documents with 117190 words
+2022-11-18 17:19:27,565:INFO:PROGRESS: pass 2, at document #1000/1000
+2022-11-18 17:19:28,272:INFO:topic #16 (0.033): 0.041*"chase" + 0.020*"account" + 0.019*"credit" + 0.014*"would" + 0.010*"bank" + 0.008*"check" + 0.007*"received" + 0.007*"letter" + 0.006*"card" + 0.006*"said"
+2022-11-18 17:19:28,272:INFO:topic #13 (0.033): 0.018*"chase" + 0.012*"card" + 0.010*"pay" + 0.010*"fraud" + 0.010*"account" + 0.008*"credit" + 0.007*"month" + 0.007*"dispute" + 0.007*"company" + 0.007*"never"
+2022-11-18 17:19:28,272:INFO:topic #5 (0.033): 0.026*"points" + 0.022*"chase" + 0.019*"flight" + 0.018*"card" + 0.015*"account" + 0.015*"rewards" + 0.014*"credit" + 0.012*"would" + 0.010*"dispute" + 0.009*"email"
+2022-11-18 17:19:28,273:INFO:topic #7 (0.033): 0.038*"chase" + 0.017*"account" + 0.014*"card" + 0.012*"credit" + 0.012*"payment" + 0.011*"bank" + 0.010*"made" + 0.008*"claim" + 0.007*"transactions" + 0.007*"letter"
+2022-11-18 17:19:28,273:INFO:topic #8 (0.033): 0.023*"chase" + 0.014*"bank" + 0.013*"account" + 0.011*"credit" + 0.011*"would" + 0.008*"called" + 0.006*"card" + 0.006*"told" + 0.006*"information" + 0.005*"time"
+2022-11-18 17:19:28,273:INFO:topic diff=1.690240, rho=0.500000
+2022-11-18 17:19:29,337:INFO:-7.906 per-word bound, 239.9 perplexity estimate based on a held-out corpus of 1000 documents with 117190 words
+2022-11-18 17:19:29,337:INFO:PROGRESS: pass 3, at document #1000/1000
+2022-11-18 17:19:30,045:INFO:topic #25 (0.033): 0.016*"credit" + 0.013*"see" + 0.013*"chase" + 0.012*"details" + 0.011*"card" + 0.010*"transaction" + 0.008*"applied" + 0.007*"section" + 0.007*"years" + 0.007*"duty"
+2022-11-18 17:19:30,046:INFO:topic #6 (0.033): 0.015*"would" + 0.013*"chase" + 0.009*"year" + 0.007*"new" + 0.007*"service" + 0.007*"sale" + 0.007*"told" + 0.006*"customer" + 0.006*"travel" + 0.006*"card"
+2022-11-18 17:19:30,046:INFO:topic #2 (0.033): 0.018*"chase" + 0.018*"account" + 0.013*"bank" + 0.012*"information" + 0.011*"insurance" + 0.009*"report" + 0.008*"would" + 0.008*"address" + 0.007*"day" + 0.006*"credit"
+2022-11-18 17:19:30,046:INFO:topic #1 (0.033): 0.042*"chase" + 0.018*"account" + 0.011*"card" + 0.011*"would" + 0.007*"bonus" + 0.007*"also" + 0.007*"never" + 0.007*"call" + 0.006*"called" + 0.006*"bank"
+2022-11-18 17:19:30,047:INFO:topic #5 (0.033): 0.029*"points" + 0.023*"flight" + 0.022*"chase" + 0.019*"card" + 0.016*"rewards" + 0.016*"account" + 0.013*"credit" + 0.013*"would" + 0.009*"dispute" + 0.009*"email"
+2022-11-18 17:19:30,047:INFO:topic diff=1.320430, rho=0.447214
+2022-11-18 17:19:31,122:INFO:-7.798 per-word bound, 222.5 perplexity estimate based on a held-out corpus of 1000 documents with 117190 words
+2022-11-18 17:19:31,122:INFO:PROGRESS: pass 4, at document #1000/1000
+2022-11-18 17:19:31,966:INFO:topic #6 (0.033): 0.015*"would" + 0.011*"chase" + 0.009*"year" + 0.008*"new" + 0.007*"service" + 0.007*"sale" + 0.007*"told" + 0.007*"travel" + 0.006*"customer" + 0.006*"vehicle"
+2022-11-18 17:19:31,966:INFO:topic #0 (0.033): 0.035*"chase" + 0.033*"account" + 0.016*"bank" + 0.016*"told" + 0.014*"credit" + 0.012*"card" + 0.012*"would" + 0.011*"check" + 0.010*"funds" + 0.009*"called"
+2022-11-18 17:19:31,967:INFO:topic #11 (0.033): 0.026*"chase" + 0.025*"account" + 0.022*"card" + 0.022*"credit" + 0.010*"bank" + 0.009*"told" + 0.009*"funds" + 0.009*"would" + 0.008*"said" + 0.007*"new"
+2022-11-18 17:19:31,967:INFO:topic #26 (0.033): 0.016*"loan" + 0.013*"debt" + 0.013*"payment" + 0.012*"chase" + 0.010*"credit" + 0.010*"would" + 0.009*"trust" + 0.008*"made" + 0.007*"interest" + 0.006*"account"
+2022-11-18 17:19:31,967:INFO:topic #19 (0.033): 0.020*"account" + 0.018*"chase" + 0.016*"check" + 0.013*"bank" + 0.013*"cash" + 0.010*"money" + 0.009*"get" + 0.007*"poa" + 0.007*"house" + 0.005*"new"
+2022-11-18 17:19:31,968:INFO:topic diff=1.015141, rho=0.408248
+2022-11-18 17:19:31,968:INFO:LdaModel lifecycle event {'msg': 'trained LdaModel<num_terms=7643, num_topics=30, decay=0.5, chunksize=1000> in 12.44s', 'datetime': '2022-11-18T17:19:31.968505', 'gensim': '4.2.0', 'python': '3.9.0 (v3.9.0:9cf6752276, Oct  5 2020, 11:29:23) \n[Clang 6.0 (clang-600.0.57)]', 'platform': 'macOS-10.16-x86_64-i386-64bit', 'event': 'created'}
+2022-11-18 17:19:31,968:INFO:LdaState lifecycle event {'fname_or_handle': 'symmetric/model/model.state', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2022-11-18T17:19:31.968743', 'gensim': '4.2.0', 'python': '3.9.0 (v3.9.0:9cf6752276, Oct  5 2020, 11:29:23) \n[Clang 6.0 (clang-600.0.57)]', 'platform': 'macOS-10.16-x86_64-i386-64bit', 'event': 'saving'}
+2022-11-18 17:19:31,970:INFO:saved symmetric/model/model.state
+2022-11-18 17:19:31,974:INFO:LdaModel lifecycle event {'fname_or_handle': 'symmetric/model/model', 'separately': "['expElogbeta', 'sstats']", 'sep_limit': 10485760, 'ignore': ['dispatcher', 'id2word', 'state'], 'datetime': '2022-11-18T17:19:31.974492', 'gensim': '4.2.0', 'python': '3.9.0 (v3.9.0:9cf6752276, Oct  5 2020, 11:29:23) \n[Clang 6.0 (clang-600.0.57)]', 'platform': 'macOS-10.16-x86_64-i386-64bit', 'event': 'saving'}
+2022-11-18 17:19:31,974:INFO:storing np array 'expElogbeta' to symmetric/model/model.expElogbeta.npy
+2022-11-18 17:19:31,979:INFO:not storing attribute dispatcher
+2022-11-18 17:19:31,979:INFO:not storing attribute id2word
+2022-11-18 17:19:31,979:INFO:not storing attribute state
+2022-11-18 17:19:31,979:INFO:saved symmetric/model/model
+2022-11-18 17:19:31,979:INFO:----symmetric----STOP----
+2022-11-18 17:19:31,987:INFO:using ParallelWordOccurrenceAccumulator<processes=7, batch_size=64> to estimate probabilities from sliding windows
+2022-11-18 17:19:42,473:INFO:1 batches submitted to accumulate stats from 64 documents (130 virtual)
+2022-11-18 17:19:42,488:INFO:3 batches submitted to accumulate stats from 192 documents (2097 virtual)
+2022-11-18 17:19:42,498:INFO:5 batches submitted to accumulate stats from 320 documents (2044 virtual)
+2022-11-18 17:19:42,503:INFO:6 batches submitted to accumulate stats from 384 documents (2509 virtual)
+2022-11-18 17:19:42,511:INFO:8 batches submitted to accumulate stats from 512 documents (4244 virtual)
+2022-11-18 17:19:42,514:INFO:9 batches submitted to accumulate stats from 576 documents (4571 virtual)
+2022-11-18 17:19:42,518:INFO:10 batches submitted to accumulate stats from 640 documents (6753 virtual)
+2022-11-18 17:19:42,524:INFO:11 batches submitted to accumulate stats from 704 documents (8786 virtual)
+2022-11-18 17:19:42,527:INFO:12 batches submitted to accumulate stats from 768 documents (10000 virtual)
+2022-11-18 17:19:44,642:INFO:7 accumulators retrieved from output queue
+2022-11-18 17:19:44,714:INFO:accumulated word occurrence stats for 40844 virtual documents
+2022-11-18 17:19:46,865:INFO:-7.732 per-word bound, 212.5 perplexity estimate based on a held-out corpus of 1000 documents with 117190 words
+2022-11-18 17:19:46,867:INFO:adding document #0 to Dictionary<0 unique tokens: []>
+2022-11-18 17:19:47,016:INFO:built Dictionary<7643 unique tokens: ['account', 'accounts', 'activity', 'available', 'bank']...> from 1000 documents (total 117190 corpus positions)
+2022-11-18 17:19:47,016:INFO:Dictionary lifecycle event {'msg': "built Dictionary<7643 unique tokens: ['account', 'accounts', 'activity', 'available', 'bank']...> from 1000 documents (total 117190 corpus positions)", 'datetime': '2022-11-18T17:19:47.016679', 'gensim': '4.2.0', 'python': '3.9.0 (v3.9.0:9cf6752276, Oct  5 2020, 11:29:23) \n[Clang 6.0 (clang-600.0.57)]', 'platform': 'macOS-10.16-x86_64-i386-64bit', 'event': 'created'}
+2022-11-18 17:19:47,113:INFO:----asymmetric----START----
+2022-11-18 17:19:47,113:INFO:using asymmetric alpha [0.093714856, 0.07924649, 0.06864811, 0.060550164, 0.054161146, 0.04899173, 0.044723127, 0.041138746, 0.03808628, 0.035455506, 0.03316469, 0.031151932, 0.029369501, 0.027780004, 0.026353722, 0.025066746, 0.023899615, 0.022836333, 0.02186363, 0.020970408, 0.020147305, 0.019386375, 0.018680831, 0.01802484, 0.017413355, 0.016841998, 0.016306946, 0.015804842, 0.015332734, 0.014888014]
+2022-11-18 17:19:47,113:INFO:using symmetric eta at 0.03333333333333333
+2022-11-18 17:19:47,115:INFO:using serial LDA version on this node
+2022-11-18 17:19:47,143:INFO:running online (multi-pass) LDA training, 30 topics, 5 passes over the supplied corpus of 1000 documents, updating model once every 1000 documents, evaluating perplexity every 1000 documents, iterating 50x with a convergence threshold of 0.001000
+2022-11-18 17:19:47,144:WARNING:too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2022-11-18 17:19:49,487:INFO:-13.555 per-word bound, 12034.8 perplexity estimate based on a held-out corpus of 1000 documents with 117190 words
+2022-11-18 17:19:49,488:INFO:PROGRESS: pass 0, at document #1000/1000
+2022-11-18 17:19:51,438:INFO:topic #29 (0.015): 0.020*"account" + 0.020*"chase" + 0.010*"card" + 0.008*"credit" + 0.006*"bank" + 0.005*"received" + 0.005*"points" + 0.005*"said" + 0.004*"payment" + 0.004*"would"
+2022-11-18 17:19:51,439:INFO:topic #28 (0.015): 0.029*"chase" + 0.014*"account" + 0.010*"card" + 0.008*"would" + 0.008*"received" + 0.007*"told" + 0.007*"payment" + 0.006*"bank" + 0.006*"credit" + 0.006*"money"
+2022-11-18 17:19:51,439:INFO:topic #2 (0.069): 0.031*"account" + 0.020*"chase" + 0.018*"bank" + 0.013*"would" + 0.009*"told" + 0.008*"money" + 0.008*"funds" + 0.007*"credit" + 0.006*"back" + 0.006*"card"
+2022-11-18 17:19:51,440:INFO:topic #1 (0.079): 0.029*"chase" + 0.018*"account" + 0.012*"credit" + 0.010*"card" + 0.008*"bank" + 0.007*"fraud" + 0.006*"information" + 0.005*"would" + 0.005*"call" + 0.005*"charges"
+2022-11-18 17:19:51,440:INFO:topic #0 (0.094): 0.031*"chase" + 0.025*"account" + 0.009*"card" + 0.007*"credit" + 0.007*"bank" + 0.007*"fraud" + 0.007*"never" + 0.007*"called" + 0.006*"back" + 0.006*"would"
+2022-11-18 17:19:51,441:INFO:topic diff=16.016376, rho=1.000000
+2022-11-18 17:19:53,831:INFO:-8.547 per-word bound, 373.9 perplexity estimate based on a held-out corpus of 1000 documents with 117190 words
+2022-11-18 17:19:53,831:INFO:PROGRESS: pass 1, at document #1000/1000
+2022-11-18 17:19:54,937:INFO:topic #29 (0.015): 0.020*"account" + 0.016*"chase" + 0.009*"debt" + 0.008*"card" + 0.006*"credit" + 0.005*"charges" + 0.005*"creditor" + 0.005*"received" + 0.005*"bank" + 0.004*"said"
+2022-11-18 17:19:54,937:INFO:topic #28 (0.015): 0.027*"chase" + 0.015*"account" + 0.009*"received" + 0.009*"payment" + 0.009*"card" + 0.009*"escrow" + 0.008*"would" + 0.008*"told" + 0.007*"mortgage" + 0.006*"insurance"
+2022-11-18 17:19:54,937:INFO:topic #2 (0.069): 0.035*"account" + 0.021*"bank" + 0.019*"chase" + 0.014*"would" + 0.012*"told" + 0.011*"funds" + 0.011*"money" + 0.008*"back" + 0.007*"could" + 0.007*"called"
+2022-11-18 17:19:54,938:INFO:topic #1 (0.079): 0.026*"chase" + 0.017*"account" + 0.013*"credit" + 0.009*"card" + 0.008*"bank" + 0.008*"fraud" + 0.005*"charges" + 0.005*"information" + 0.005*"multiple" + 0.005*"never"
+2022-11-18 17:19:54,938:INFO:topic #0 (0.094): 0.032*"chase" + 0.027*"account" + 0.007*"never" + 0.007*"card" + 0.007*"made" + 0.007*"funds" + 0.007*"money" + 0.006*"fraud" + 0.006*"back" + 0.006*"bank"
+2022-11-18 17:19:54,938:INFO:topic diff=2.150737, rho=0.577350
+2022-11-18 17:19:56,159:INFO:-8.124 per-word bound, 279.1 perplexity estimate based on a held-out corpus of 1000 documents with 117190 words
+2022-11-18 17:19:56,159:INFO:PROGRESS: pass 2, at document #1000/1000
+2022-11-18 17:19:56,912:INFO:topic #29 (0.015): 0.018*"account" + 0.014*"chase" + 0.013*"debt" + 0.008*"creditor" + 0.007*"card" + 0.006*"charges" + 0.006*"travel" + 0.005*"credit" + 0.005*"advertised" + 0.005*"license"
+2022-11-18 17:19:56,913:INFO:topic #28 (0.015): 0.027*"chase" + 0.016*"account" + 0.013*"escrow" + 0.011*"payment" + 0.010*"received" + 0.009*"mortgage" + 0.008*"card" + 0.008*"insurance" + 0.008*"told" + 0.007*"would"
+2022-11-18 17:19:56,913:INFO:topic #2 (0.069): 0.039*"account" + 0.023*"bank" + 0.018*"chase" + 0.014*"would" + 0.014*"told" + 0.013*"money" + 0.012*"funds" + 0.009*"back" + 0.008*"said" + 0.007*"called"
+2022-11-18 17:19:56,913:INFO:topic #1 (0.079): 0.025*"chase" + 0.016*"account" + 0.013*"credit" + 0.009*"card" + 0.009*"bank" + 0.008*"fraud" + 0.006*"multiple" + 0.005*"charges" + 0.005*"reported" + 0.005*"never"
+2022-11-18 17:19:56,914:INFO:topic #0 (0.094): 0.033*"chase" + 0.028*"account" + 0.008*"never" + 0.007*"funds" + 0.007*"made" + 0.007*"money" + 0.006*"card" + 0.006*"time" + 0.006*"fraud" + 0.006*"back"
+2022-11-18 17:19:56,914:INFO:topic diff=1.714528, rho=0.500000
+2022-11-18 17:19:58,120:INFO:-7.916 per-word bound, 241.6 perplexity estimate based on a held-out corpus of 1000 documents with 117190 words
+2022-11-18 17:19:58,121:INFO:PROGRESS: pass 3, at document #1000/1000
+2022-11-18 17:19:58,892:INFO:topic #29 (0.015): 0.018*"debt" + 0.016*"account" + 0.012*"chase" + 0.010*"creditor" + 0.007*"charges" + 0.006*"travel" + 0.006*"license" + 0.006*"card" + 0.005*"advertised" + 0.005*"request"
+2022-11-18 17:19:58,892:INFO:topic #28 (0.015): 0.027*"chase" + 0.016*"escrow" + 0.016*"account" + 0.013*"payment" + 0.010*"mortgage" + 0.010*"received" + 0.009*"insurance" + 0.007*"told" + 0.007*"card" + 0.007*"year"
+2022-11-18 17:19:58,893:INFO:topic #2 (0.069): 0.041*"account" + 0.025*"bank" + 0.017*"chase" + 0.015*"told" + 0.014*"money" + 0.014*"would" + 0.013*"funds" + 0.010*"back" + 0.009*"said" + 0.008*"check"
+2022-11-18 17:19:58,893:INFO:topic #1 (0.079): 0.024*"chase" + 0.015*"account" + 0.013*"credit" + 0.009*"bank" + 0.008*"fraud" + 0.008*"card" + 0.006*"multiple" + 0.006*"charges" + 0.005*"reported" + 0.005*"never"
+2022-11-18 17:19:58,893:INFO:topic #0 (0.094): 0.034*"chase" + 0.029*"account" + 0.008*"funds" + 0.008*"never" + 0.008*"made" + 0.007*"money" + 0.007*"house" + 0.006*"time" + 0.006*"fraud" + 0.006*"checking"
+2022-11-18 17:19:58,894:INFO:topic diff=1.337282, rho=0.447214
+2022-11-18 17:20:00,307:INFO:-7.799 per-word bound, 222.7 perplexity estimate based on a held-out corpus of 1000 documents with 117190 words
+2022-11-18 17:20:00,308:INFO:PROGRESS: pass 4, at document #1000/1000
+2022-11-18 17:20:01,377:INFO:topic #29 (0.015): 0.022*"debt" + 0.015*"account" + 0.012*"creditor" + 0.010*"chase" + 0.007*"license" + 0.007*"charges" + 0.007*"travel" + 0.006*"advertised" + 0.006*"collection" + 0.005*"adware"
+2022-11-18 17:20:01,378:INFO:topic #28 (0.015): 0.027*"chase" + 0.019*"escrow" + 0.016*"account" + 0.014*"payment" + 0.012*"mortgage" + 0.010*"insurance" + 0.010*"received" + 0.008*"year" + 0.007*"taxes" + 0.007*"told"
+2022-11-18 17:20:01,378:INFO:topic #2 (0.069): 0.043*"account" + 0.026*"bank" + 0.017*"chase" + 0.016*"told" + 0.016*"money" + 0.014*"would" + 0.013*"funds" + 0.010*"back" + 0.010*"check" + 0.010*"said"
+2022-11-18 17:20:01,378:INFO:topic #1 (0.079): 0.023*"chase" + 0.014*"account" + 0.013*"credit" + 0.009*"bank" + 0.009*"fraud" + 0.008*"card" + 0.006*"multiple" + 0.006*"reported" + 0.006*"charges" + 0.005*"times"
+2022-11-18 17:20:01,378:INFO:topic #0 (0.094): 0.034*"chase" + 0.029*"account" + 0.008*"house" + 0.008*"funds" + 0.008*"made" + 0.008*"money" + 0.008*"never" + 0.006*"time" + 0.006*"checking" + 0.005*"fraud"
+2022-11-18 17:20:01,379:INFO:topic diff=1.030485, rho=0.408248
+2022-11-18 17:20:01,380:INFO:LdaModel lifecycle event {'msg': 'trained LdaModel<num_terms=7643, num_topics=30, decay=0.5, chunksize=1000> in 14.24s', 'datetime': '2022-11-18T17:20:01.380254', 'gensim': '4.2.0', 'python': '3.9.0 (v3.9.0:9cf6752276, Oct  5 2020, 11:29:23) \n[Clang 6.0 (clang-600.0.57)]', 'platform': 'macOS-10.16-x86_64-i386-64bit', 'event': 'created'}
+2022-11-18 17:20:01,380:INFO:LdaState lifecycle event {'fname_or_handle': 'asymmetric/model/model.state', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2022-11-18T17:20:01.380518', 'gensim': '4.2.0', 'python': '3.9.0 (v3.9.0:9cf6752276, Oct  5 2020, 11:29:23) \n[Clang 6.0 (clang-600.0.57)]', 'platform': 'macOS-10.16-x86_64-i386-64bit', 'event': 'saving'}
+2022-11-18 17:20:01,382:INFO:saved asymmetric/model/model.state
+2022-11-18 17:20:01,387:INFO:LdaModel lifecycle event {'fname_or_handle': 'asymmetric/model/model', 'separately': "['expElogbeta', 'sstats']", 'sep_limit': 10485760, 'ignore': ['dispatcher', 'id2word', 'state'], 'datetime': '2022-11-18T17:20:01.387564', 'gensim': '4.2.0', 'python': '3.9.0 (v3.9.0:9cf6752276, Oct  5 2020, 11:29:23) \n[Clang 6.0 (clang-600.0.57)]', 'platform': 'macOS-10.16-x86_64-i386-64bit', 'event': 'saving'}
+2022-11-18 17:20:01,387:INFO:storing np array 'expElogbeta' to asymmetric/model/model.expElogbeta.npy
+2022-11-18 17:20:01,393:INFO:not storing attribute dispatcher
+2022-11-18 17:20:01,394:INFO:not storing attribute id2word
+2022-11-18 17:20:01,394:INFO:not storing attribute state
+2022-11-18 17:20:01,395:INFO:saved asymmetric/model/model
+2022-11-18 17:20:01,395:INFO:----asymmetric----STOP----
+2022-11-18 17:20:01,403:INFO:using ParallelWordOccurrenceAccumulator<processes=7, batch_size=64> to estimate probabilities from sliding windows
+2022-11-18 17:20:12,150:INFO:1 batches submitted to accumulate stats from 64 documents (654 virtual)
+2022-11-18 17:20:12,164:INFO:3 batches submitted to accumulate stats from 192 documents (1689 virtual)
+2022-11-18 17:20:12,169:INFO:4 batches submitted to accumulate stats from 256 documents (2341 virtual)
+2022-11-18 17:20:12,174:INFO:5 batches submitted to accumulate stats from 320 documents (3127 virtual)
+2022-11-18 17:20:12,179:INFO:6 batches submitted to accumulate stats from 384 documents (5207 virtual)
+2022-11-18 17:20:12,184:INFO:7 batches submitted to accumulate stats from 448 documents (6916 virtual)
+2022-11-18 17:20:12,188:INFO:8 batches submitted to accumulate stats from 512 documents (7854 virtual)
+2022-11-18 17:20:12,192:INFO:9 batches submitted to accumulate stats from 576 documents (8142 virtual)
+2022-11-18 17:20:12,195:INFO:10 batches submitted to accumulate stats from 640 documents (9220 virtual)
+2022-11-18 17:20:12,211:INFO:12 batches submitted to accumulate stats from 768 documents (8608 virtual)
+2022-11-18 17:20:12,214:INFO:13 batches submitted to accumulate stats from 832 documents (9495 virtual)
+2022-11-18 17:20:12,231:INFO:14 batches submitted to accumulate stats from 896 documents (9876 virtual)
+2022-11-18 17:20:14,118:INFO:7 accumulators retrieved from output queue
+2022-11-18 17:20:14,200:INFO:accumulated word occurrence stats for 41068 virtual documents
+2022-11-18 17:20:16,466:INFO:-7.727 per-word bound, 211.9 perplexity estimate based on a held-out corpus of 1000 documents with 117190 words

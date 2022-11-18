@@ -1,0 +1,1 @@
+{"topics": 30, "alpha": "asymmetric", "eta": "symmetric", "passes": 5}

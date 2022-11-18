@@ -1,0 +1,1 @@
+{"name": "symetric", "coherence": 0.31703114310914404, "perplexity": -7.731580902328974, "docs": 1000, "avg_len_doc": 117.19}

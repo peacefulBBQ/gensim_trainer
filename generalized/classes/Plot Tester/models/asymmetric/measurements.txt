@@ -1,0 +1,1 @@
+{"name": "asymetric", "coherence": 0.2829794000412844, "perplexity": -7.727029929563183, "docs": 1000, "avg_len_doc": 117.19}

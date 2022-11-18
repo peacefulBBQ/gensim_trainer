@@ -1,0 +1,1 @@
+{"name": "auto", "coherence": 0.26795310192211896, "perplexity": -7.505403049944896, "docs": 1000, "avg_len_doc": 117.19}
